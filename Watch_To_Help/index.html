@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width" initial-scale="1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    </head>
+    <style>
+        .heading-container{
+            padding:10px 10px 10px 10px;
+            background-color: floralwhite;
+        }
+        .nav-container{
+            padding:0px 0px 0px 0px;
+        }
+        .jumbotron{
+            padding:0px 0px 0px 0px;
+        }
+        .img-responsive{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn{
+            background-color: coral;
+            height: 40%;
+            width: 10%;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+        .carousel-button{
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+    </style>
+    <body>
+        <div class="heading-container">
+            <header>
+                <h1>
+                    <center>WTH</center>
+                </h1>
+                <h2>
+                    <center>Watch to Help</center>
+                </h2>
+            </header>
+        </div>
+        <div class="nav-container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Causes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Illness</a></li>
+                                <li><a href="#">Poor</a></li>
+                                <li><a href="#">Society Issues</a></li>
+                                <li><a href="#">Unemploybility</a></li>
+                                <li><a href="#">Environment</a></li>
+                                <!-----Add required causes here...----->
+                                </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Events</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Event List view</a></li>
+                                <li><a href="#">Event Grid view</a></li>
+                                <li><a href="#">Event Name</a></li>
+                                <!-----Add required Events here...----->
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1</a></li>
+                                <li><a href="#">Page 2</a></li>
+                                <li><a href="#">Page 3</a></li>
+                                <!-----Add required Events here...----->
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blogs</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Blog 1</a></li>
+                                <li><a href="#">Blog 2</a></li>
+                                <li><a href="#">Blog 3</a></li>
+                                <!-----Add required Blog here...----->
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user">SignUp</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in">Login</span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <!------- /.<img src="Images/jumbotron-img1.jpg" class="img-rounded" width="100%" height="10%"> ------>
+            
+          <!------- Bootstrap Carousel image Slideshow ----->
+            <!--Carousel Wrapper-->
+<div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="Images/jumbotron-img1.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <h3 class="h3-responsive">Education</h3>
+            <p>Educating Poor Children</p>
+            <div class="carousel-button">
+            <button type="button" class="btn">Help</button>
+            </div>
+      </div>
+        </div>
+        <div class="item">
+           <img src="Images/human_healthj.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+            <h3 class="h3-responsive">Healthy Mankind</h3>
+            <p>Step for creating a healthy Generation </p>
+            </div>    
+      </div>
+        </div>
+        <div class="item">
+           <img src="Images/nature1.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <h3 class="h3-responsive">Saving the Environment</h3>
+            <p>Indulge in saving the nature and its beauty</p>
+      </div>
+        </div>
+        <div class="item">
+           <img src="Images/Animal_Health.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <h3 class="h3-responsive">Save the Animals</h3>
+            <p>Indulge in saving the Wildlife and nature's wonderful creatures</p>
+      </div>
+        </div>
+        <div class="item">
+           <img src="Images/Womens1.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <h3 class="h3-responsive">Women Empowerment</h3>
+            <p>Indulge in growing the WomenHood in the society</p>
+      </div>
+        </div>
+        <div class="item">
+           <img src="Images/Disaster1.jpg" class="img-responsive" style="width: 1400px;height: 450px" />
+            <div class="carousel-caption">
+            <h3 class="h3-responsive">Disaster Response</h3>
+            <p>Help for those who got suffered from the disaster</p>
+      </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="carousel-control left" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="carousel-control right" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+    </body>
+</html>
